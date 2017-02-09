@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add"
+        android:title="action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always" >
+
+
+        <item android:id="@+id/action_shownews"
+            android:title="Show news"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/action_showblocked"
+            android:title="Show Blocked"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/action_sortaz"
+            android:title="Sort A-Z"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/action_sortza"
+            android:title="Sort Z-A"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/action_clearblocked"
+            android:title="Clear Blocked"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+    </item>
+</menu>
