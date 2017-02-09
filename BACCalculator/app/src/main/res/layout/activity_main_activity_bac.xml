@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.vivek.hw1.MainActivity_bac">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/weight"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="5"
+        android:id="@+id/editTextweight"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_alignTop="@+id/textView"
+        android:hint="@string/weights"
+        android:layout_toLeftOf="@+id/button2reset"
+        android:layout_toStartOf="@+id/button2reset"
+        android:digits="0123456789."/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Gender"
+        android:id="@+id/switch1gender"
+        android:layout_alignTop="@+id/editTextweight"
+        android:layout_alignRight="@+id/buttonsave"
+        android:layout_alignEnd="@+id/buttonsave"
+        android:textOff="F"
+        android:textOn="M"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/buttonsave"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Drinksize"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/buttonsave"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="15dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/editTextweight"
+        android:layout_alignStart="@+id/editTextweight"
+        android:layout_alignBottom="@+id/textView2"
+        android:id="@+id/radioGroup"
+        android:checkedButton="@+id/radioButtononeoz">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oneoz"
+            android:id="@+id/radioButtononeoz"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fiveoz"
+            android:id="@+id/radioButton2fiveoz"
+            android:layout_alignTop="@+id/radioButtononeoz"
+            android:layout_toRightOf="@+id/radioButtononeoz"
+            android:layout_toEndOf="@+id/radioButtononeoz" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twelveoz"
+            android:id="@+id/radioButton3twelveoz"
+            android:layout_toRightOf="@+id/radioButton2fiveoz"
+            android:layout_toEndOf="@+id/radioButton2fiveoz"
+            android:layout_alignTop="@+id/radioButton2fiveoz" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Alcohols"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBaralcohol"
+
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/switch1gender"
+        android:layout_alignEnd="@+id/switch1gender"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginRight="10dp"
+        android:indeterminate="false"
+        android:max="25"
+        android:progress="5"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+
+        android:id="@+id/editTextalcoholindicator"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toRightOf="@+id/seekBaralcohol"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adddrink"
+        android:id="@+id/buttonadddrink"
+        android:layout_below="@+id/editTextalcoholindicator"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:id="@+id/button2reset"
+        android:layout_alignTop="@+id/buttonadddrink"
+        android:layout_toLeftOf="@+id/editTextalcoholindicator"
+        android:layout_toStartOf="@+id/editTextalcoholindicator"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/baclevel"
+        android:id="@+id/textView4baclevel"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/button2reset"
+        android:layout_alignLeft="@+id/buttonadddrink"
+        android:layout_alignStart="@+id/buttonadddrink" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextbac"
+        android:layout_alignTop="@+id/textView4baclevel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarbac"
+        android:layout_below="@+id/editTextbac"
+        android:layout_alignLeft="@+id/textView4baclevel"
+        android:layout_alignStart="@+id/textView4baclevel"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/yourstatus"
+        android:id="@+id/textView4yourstatus"
+        android:layout_below="@+id/progressBarbac"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextstatuslabel"
+        android:layout_alignTop="@+id/textView4yourstatus"
+        android:layout_toRightOf="@+id/textView4baclevel"
+        android:layout_alignRight="@+id/button2reset"
+        android:layout_alignEnd="@+id/button2reset" />
+
+</RelativeLayout>
