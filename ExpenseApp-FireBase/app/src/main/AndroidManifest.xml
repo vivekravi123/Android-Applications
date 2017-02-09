@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vivek.firebasestart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.vivek.firebasestart.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.vivek.firebasestart.ExpenseActivity" />
+        <activity android:name="com.example.vivek.firebasestart.AddExpenseActivity" />
+        <activity android:name="com.example.vivek.firebasestart.ShowExpenses" />
+        <activity android:name="com.example.vivek.firebasestart.SignUpActivity"></activity>
+    </application>
+
+</manifest>
