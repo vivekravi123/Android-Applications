@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewName"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="61dp"
+            android:src="@drawable/logout"
+            android:id="@+id/imageLogout"
+            android:clickable="true" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="375dp"
+        android:id="@+id/recyclerView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/editTextMessage"
+            android:hint="@string/message_hint"
+            android:layout_width="240dp" />
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="78dp"
+            android:src="@drawable/send"
+            android:id="@+id/imageSend"
+            android:padding="10dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="78dp"
+            android:src="@drawable/gallery"
+            android:id="@+id/imageGallery"
+            android:padding="10dp"
+            android:clickable="true"/>
+    </LinearLayout>
+</LinearLayout>
