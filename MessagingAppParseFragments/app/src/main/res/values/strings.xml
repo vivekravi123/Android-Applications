@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework7part1</string>
+    <string name="facebook_app_id">1813838015559837</string>
+
+    <string name="Fname">Fname</string>
+    <string name="Lname">Lname</string>
+    <string name="confirm">Confirm Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

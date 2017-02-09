@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:id="@+id/individualprofile">
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="61dp"
+            android:id="@+id/profilepicindivi"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/messagetext"
+            android:layout_weight="1"
+            android:padding="0.5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:text="message"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete"
+            android:id="@+id/deleteimagge"
+            android:clickable="true" />
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:id="@+id/individuprof">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/messagefrom"
+            android:layout_weight="1"
+            android:padding="0.5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:text="abc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:id="@+id/textdate"
+            android:layout_weight="1"
+            android:padding="0.5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inbox_"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.vivek.homework7part1.Inbox_Activity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstlayout">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profilepic"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewfirstName"
+            android:padding="0.5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewlastName"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logout"
+            android:id="@+id/imageLogout"
+            android:clickable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstlayout"
+        android:id="@+id/secondlay">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:id="@+id/msg_listView"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_below="@+id/secondlay"
+        android:id="@+id/linearLayout11">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingBottom="10dp"
+            android:inputType="textPersonName"
+            android:hint="Type message to send"
+            android:layout_weight="0.5"
+            android:id="@+id/editTextMessage"
+
+
+            android:ems="10"/>
+
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.25"
+        android:src="@drawable/send"
+        android:id="@+id/imageSend"
+        android:padding="10dp"
+        android:clickable="true"
+         />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/gallery"
+        android:id="@+id/imageGallery"
+        android:padding="10dp"
+        android:clickable="true"
+        android:layout_weight="0.25"
+        android:layout_marginBottom="11dp" />
+    </LinearLayout>
+
+</LinearLayout>
