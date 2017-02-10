@@ -104,3 +104,14 @@ database and storage features.</p>
 <img src="https://github.com/vivekravi123/Android-Applications/blob/master/MessagingAppParseFragments/screenshots/Messagingapp.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
 
+> ### Tracking app - Google Map:
+
+<p align="justify"> In this project, we have a implementing a simple location tracking
+application. The application tracks the user’s current location using the device’s GPS and draws
+the tracked user’s path on a Google map using PolyLines.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/TrackingApp-GoogleMap/screenshot/mapimage.png">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/TrackingApp-GoogleMap/screenshot/mapimage.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
