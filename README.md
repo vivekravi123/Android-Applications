@@ -69,3 +69,16 @@ database.</p>
 <a href="https://github.com/vivekravi123/Android-Applications/blob/master/iTunesTopPaidApplication/screenshot/iTunesTopPaid.png">
 <img src="https://github.com/vivekravi123/Android-Applications/blob/master/iTunesTopPaidApplication/screenshot/iTunesTopPaid.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+> ### Chat Application:
+
+<p align="justify"> In this project, we have developed a chat application using with HTTP connections,
+authentication, and implemented an app to share messages and images.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/ChatApplication/screenshot/chatimage.png">
+<img src="hhttps://github.com/vivekravi123/Android-Applications/blob/master/ChatApplication/screenshot/chatimage.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+
