@@ -115,3 +115,16 @@ the tracked user’s path on a Google map using PolyLines.</p>
 <a href="https://github.com/vivekravi123/Android-Applications/blob/master/TrackingApp-GoogleMap/screenshot/mapimage.png">
 <img src="https://github.com/vivekravi123/Android-Applications/blob/master/TrackingApp-GoogleMap/screenshot/mapimage.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+
+
+> ### Chat Application Firebase:
+
+<p align="justify"> In this project, we have developed a chat application using with HTTP connections,
+authentication, and implemented an app to share messages and images. The database is integrated with firebase data storage </p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/Chat-FireBase/screenshot/chatimage.png">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/Chat-FireBase/screenshot/chatimage.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
