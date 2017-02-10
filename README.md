@@ -92,3 +92,15 @@ store and retrieve user expenses.</p>
 <a href="https://github.com/vivekravi123/Android-Applications/blob/master/ExpenseApp-FireBase/screenshot/expenseappfirebase.png">
 <img src="https://github.com/vivekravi123/Android-Applications/blob/master/ExpenseApp-FireBase/screenshot/expenseappfirebase.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+> ### Messaging Application Parse Fragments:
+
+<p align="justify"> In this project, we have created a chat room application that uses Firebase realtime
+database and storage features.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/MessagingAppParseFragments/screenshots/Messagingapp.png">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/MessagingAppParseFragments/screenshots/Messagingapp.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
