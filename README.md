@@ -21,4 +21,25 @@ alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
 <img src="https://github.com/vivekravi123/Android-Applications/blob/master/CNNTechnologyNewsApp/screenshots/CNNimage.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
 
+> ### iTunes Top Podcast Listview:
 
+<p align="justify">The purpose of this app is to build an app that shows you the top iTunes podcasts. The user can view more details about the news such as update date, summary etc. In this project, i have used Json Parsing using Threads/AsyncTasks and dynamic UI management.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/iTunesTopPodcastListview/screenshot/iTunesTopPodcastimage.png" target="_blank">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/iTunesTopPodcastListview/screenshot/iTunesTopPodcastimage.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+> ### Weather Application:
+
+<p align="justify">The purpose of this app is to build a simple weather application that will check the
+weather. I have used the Weather Underground API for getting the weather information. The
+API of interest is the Current Weather Data API which is based on the city name and
+state initials with the usage of GSON to store data into shared preferences</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/WeatherApp/screenshot/weatherimage.png" target="_blank">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/WeatherApp/screenshot/weatherimage.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
