@@ -57,3 +57,15 @@ display expenses with the help of fragments.</p>
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
 
 
+> ### iTunes Top paid Application Rss feed:
+
+<p align="justify">The purpose of this app is to implement the application which displays the list
+of top paid apps from “iTunes Top Paid Apps” rss feed. In addition to displaying the top
+paid apps, the app allows the user to filter specific apps and store them in a SQLite
+database.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/iTunesTopPaidApplication/screenshot/iTunesTopPaid.png">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/iTunesTopPaidApplication/screenshot/iTunesTopPaid.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
