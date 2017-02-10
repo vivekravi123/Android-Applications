@@ -43,3 +43,17 @@ state initials with the usage of GSON to store data into shared preferences</p>
 <a href="https://github.com/vivekravi123/Android-Applications/blob/master/WeatherApp/screenshot/weatherimage.png" target="_blank">
 <img src="https://github.com/vivekravi123/Android-Applications/blob/master/WeatherApp/screenshot/weatherimage.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+
+> ### Expense Application:
+
+<p align="justify">The purpose of this app is to implement an app to add and
+display expenses with the help of fragments.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/ExpenseApplication/screenshot/ExpenseApp.png">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/ExpenseApplication/screenshot/ExpenseApp.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
+
+
