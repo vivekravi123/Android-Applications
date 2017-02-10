@@ -78,7 +78,17 @@ authentication, and implemented an app to share messages and images.</p>
 > ##### SCREENSHOTS (Click to Maximize)
 
 <a href="https://github.com/vivekravi123/Android-Applications/blob/master/ChatApplication/screenshot/chatimage.png">
-<img src="hhttps://github.com/vivekravi123/Android-Applications/blob/master/ChatApplication/screenshot/chatimage.png" 
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/ChatApplication/screenshot/chatimage.png" 
 alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
 
 
+> ### Expense Application - Firebase:
+
+<p align="justify"> In this project, we have developed a Expense application using Firebase to
+store and retrieve user expenses.</p>
+
+> ##### SCREENSHOTS (Click to Maximize)
+
+<a href="https://github.com/vivekravi123/Android-Applications/blob/master/ExpenseApp-FireBase/screenshot/expenseappfirebase.png">
+<img src="https://github.com/vivekravi123/Android-Applications/blob/master/ExpenseApp-FireBase/screenshot/expenseappfirebase.png" 
+alt="IMAGE ALT TEXT HERE" width="500" height="200" border="10" /></a>
